@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.blanck{
+	width: 100%;
+	height: 28%;
+}
+/*这里是头*/
+.shang{
+	width:100%;
+	height: 23%;
+}
+.tou{
+	width: 14%;
+	height: 100%;
+	position: relative;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-left-radius: 20% 46%;
+	border-bottom-right-radius: 20% 46%;
+	border-top-left-radius: 50% 54%;
+	border-top-right-radius: 50% 54%;
+	z-index: 10;
+	background-color:#123CCF;
+	border-bottom-style: none;
+}
+.face{
+	width: 91%;
+	height: 80%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-top: 18%;
+	border-top-left-radius: 28% 50%;
+	border-top-right-radius: 28% 50%;
+	border-bottom-left-radius: 20% 50%;
+	border-bottom-right-radius: 20% 50%;
+	border-top-style: none;
+	z-index: 15;
+	background-color: #FFFFFF;
+}
+.eye{
+	height: 28%;
+	width: 100%;
+	position: absolute;
+	top: 5%;
+}
+.left_eye{
+	width: 22%;
+	height: 100%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	float: left;
+	margin-left: 28%;
+	border-top-left-radius: 64% 54%;
+	border-top-right-radius: 52% 40%;
+	border-bottom-left-radius: 52% 43%;
+	border-bottom-right-radius: 51% 41%;
+	z-index: 15;
+	background-color: #FFFFFF;
+}
+.left_eyexian{
+	height: 21%;
+	width: 41%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	top: 48%;
+	left: 35%;
+	border-top-left-radius: 50% 100%;
+	border-top-right-radius: 50% 100%;
+	border-bottom-right-radius: 0% 0%;
+	border-bottom-left-radius: 0% 0%;
+	border-bottom-style: none;
+	
+}
+.right_eye{
+	width: 22%;
+	height: 100%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	float: left;
+	border-top-left-radius: 52% 40%;
+	border-top-right-radius: 64% 54%;
+	border-bottom-left-radius: 51% 41%;
+	border-bottom-right-radius: 52% 43%;
+	z-index: 15;
+	background-color: #FFFFFF;
+}
+.right_eyexian{
+	height: 21%;
+	width: 41%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	top: 48%;
+	left: 20%;
+	border-top-left-radius: 50% 100%;
+	border-top-right-radius: 50% 100%;
+	border-bottom-right-radius: 0% 0%;
+	border-bottom-left-radius: 0% 0%;
+	border-bottom-style: none;
+}
+.nose{
+	height: 23%;
+	width: 18%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	left: 41%;
+	top: 7%;
+	border-top-left-radius: 50% 50%;
+	border-top-right-radius: 50% 50%;
+	border-bottom-right-radius: 50% 50%;
+	border-bottom-left-radius: 50% 50%;
+	z-index: 50;
+	background-color:#FF0000;
+}
+.gaoguang{
+	height: 40%;
+	width: 40%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	left: 23%;
+    top: 20%;
+	border-top-left-radius: 50% 50%;
+	border-top-right-radius: 50% 50%;
+	border-bottom-right-radius: 50% 50%;
+	border-bottom-left-radius: 50% 50%;
+	z-index: 51;
+	background-color: #FFFFFF;
+}
+.huzi{
+	width: 82%;
+	height: 34%;
+	position: absolute;
+	z-index: 25;
+	left: 9%;
+    top: 32%;
+}
+.left_huzi{
+	width: 38%;
+	height: 100%;
+	float: left;
+}
+.ltophuzi{
+	width: 100%;
+	height: 33.5%;
+	border: 2px;
+	position: relative;
+	border-style: solid;
+	border-color: #000000;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	transform: rotate(9deg);
+	top: -18%;
+}
+.lzhonghuzi{
+	width: 100%;
+	height: 33%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	top: -16%;
+    position: relative;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.lxiahuzi{
+	width: 100%;
+	height: 33.5%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	transform: rotate(-9deg);
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	top: -20%;
+}
+.right_huzi{
+	width: 38%;
+	height: 100%;
+	float: left;
+	position: relative;
+	left: 25%;
+}
+.rtophuzi{
+	width: 100%;
+	height: 33.5%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	transform: rotate(-9deg);
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	top: -18%;
+	position: relative;
+}
+.rzhonghuzi{
+	width: 100%;
+	height: 33%;
+	top: -16%;
+    position: relative;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.rxiahuzi{
+	width: 100%;
+	height: 33.5%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	transform: rotate(9deg);
+	position: relative;
+	top: -20%;
+}
+.zui{
+	width: 83%;
+	height: 56%;
+}
+.left_mo{
+	width: 50%;
+	height: 100%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	left: 10%;
+    top: 10%;
+	border-top-left-radius: 0% 0%;
+	border-top-right-radius: 0% 0%;
+	border-bottom-right-radius: 0% 0%;
+	border-bottom-left-radius: 100% 67%;
+	border-left-style: none;
+	border-top-style: none;
+	float: left;
+}
+.right_mo{
+	
+	width: 50%;
+	height: 100%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	left: 10%;
+    top: 10%;
+	border-top-left-radius: 0% 0%;
+	border-top-right-radius: 0% 0%;
+	border-bottom-right-radius: 100% 67%;
+	border-bottom-left-radius: 0% 0%;
+	border-right-style: none;
+	border-top-style: none;
+	float: left;
+}
+/*这里是身子*/
+.zhong{
+	width: 100%;
+	height: 17%;
+}
+.big_body{
+	height: 100%;
+	width: 16%;
+	position: relative;
+	left: 42%;
+}
+.xianglian{
+	width: 110%;
+	left: -5%;
+	height: 10%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: absolute;
+	z-index: 40;
+	border-top-left-radius: 5% 50%;
+	border-top-right-radius: 5% 50%;
+	border-bottom-right-radius: 5% 50%;
+	border-bottom-left-radius: 5% 50%;
+	background-color:#FF0000;
+}
+.lindang{
+	width: 31%;
+	height: 35%;
+	position: absolute;
+	z-index: 100;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	left: 34%;
+    top: -4%;
+	border-top-left-radius: 50% 50%;
+	border-top-right-radius: 50% 50%;
+	border-bottom-right-radius: 50% 50%;
+	border-bottom-left-radius: 50% 50%;
+	background-color:#F0FF28;
+}
+.huan{
+	width: 120%;
+    height: 17%;
+    left: -10%;
+    border: 2px;
+    border-style: solid;
+    border-color: #000000;
+    position: relative;
+    top: 30%;z-index: 120;
+	background-color: #F0FF28;
+}
+.kon{
+	width: 25%;
+	height: 25%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	border-top-left-radius: 50% 50%;
+	border-top-right-radius: 50% 50%;
+	border-bottom-right-radius: 50% 50%;
+	border-bottom-left-radius: 50% 50%;
+	position: relative;
+	top: 38%;
+    left: 37%;
+	z-index: 120;
+	background-color: #E99711;
+}
+.dou{
+	width: 15%;
+    height: 30%;
+    border: 2px;
+    border-style: solid;
+    border-color: #000000;
+    position: relative;
+    top: 30%;
+    left: 46%;
+    z-index: 120;
+	border-bottom-style: none;
+	border-top-style: none;
+	border-right-style: none;
+}
+.left_hand{
+	width: 20%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+.left_bi{
+	height: 36%;
+	width: 60%;
+	top: 5%;
+	left: 45%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	border-top-left-radius:100% 100%;
+	border-bottom-style: none;
+	border-right-style: none;
+	background-color: #123CCF;
+}
+.left_quan{
+	width: 100%;
+	height: 42%;
+	border: 2px;
+	top: -2%;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	border-top-left-radius: 54% 49%;
+	border-top-right-radius: 48% 24%;
+	border-bottom-right-radius: 41% 28%;
+	border-bottom-left-radius: 54% 51%;
+	z-index: 20;
+	background-color: #FFFFFF;
+}
+.med{
+	width: 60%;
+	height: 100%;
+	position: relative;
+	float: left;
+	border-bottom-right-radius: 9% 39%;
+	border-bottom-left-radius: 9% 39%;
+	background-color: #123CCF;
+}
+.dupi{
+	width: 85%;
+	height: 82%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: absolute;
+	z-index: 20;
+	left: 7%;
+    top: 5%;
+	border-top-left-radius: 40% 47%;
+	border-top-right-radius: 36% 44%;
+	border-bottom-right-radius: 52% 48%;
+	border-bottom-left-radius: 48% 44%;
+	background-color: #FFFFFF;
+}
+.renyidai{
+	width: 83%;
+	height: 47%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: absolute;
+	border-bottom-right-radius: 50% 100%;
+	border-bottom-left-radius: 50% 100%;
+	left: 8%;
+    top: 45%;
+}
+.dudu{
+	width: 100%;
+	height: 82%;
+	top: 20%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	border-bottom-right-radius: 9% 47%;
+	border-bottom-left-radius:  9% 47%;
+	border-top-style: none;
+	z-index: 15;
+}
+.jioxian{
+	width: 51%;
+	height: 10%;
+	border: 2px;
+	border-style: solid;
+	position: relative;
+	border-bottom-style: none;
+	border-top-style: none;
+	border-left-style: none;
+	top:89%;
+}
+.right_hand{
+	width: 20%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+.right_bi{
+	height: 36%;
+	width: 60%;
+	top: 5%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	border-top-right-radius:100% 100%;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #123CCF;
+}
+.right_quan{
+	width: 100%;
+	height: 42%;
+	border: 2px;
+	top: -2%;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	border-top-left-radius: 48% 24%;
+	border-top-right-radius: 54% 49%;
+	border-bottom-right-radius: 54% 51%;
+	border-bottom-left-radius: 41% 28%;
+	z-index: 20;
+	background-color: #FFFFFF;
+}
+/*这里是jio*/
+.xia{
+	width: 100%;
+	height: 4%;
+}
+.foot{
+	width: 12.2%;
+	height: 100%;
+	position: relative;
+	left: 43.9%;
+}
+.left_foot{
+	width: 50%;
+	height: 100%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	float: left;
+	border-top-left-radius: 22% 49%;
+	border-top-right-radius: 0 0;
+	border-bottom-right-radius: 45% 24%;
+	border-bottom-left-radius: 51% 56%;
+}
+.right_foot{
+	width: 50%;
+	height: 100%;
+	border: 2px;
+	border-style: solid;
+	border-color: #000000;
+	float: left;
+	border-top-left-radius: 0 0%;
+	border-top-right-radius:22% 49%;
+	border-bottom-right-radius: 51% 56%;
+	border-bottom-left-radius: 45% 24%;
+}
